@@ -1,0 +1,34 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "server for teste push notification",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "cd client && ng build --prod --env=prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mskinho/pushionicnode.git"
+  },
+  "keywords": [
+    "push",
+    "notification",
+    "ionic",
+    "node",
+    "nodejs"
+  ],
+  "author": "MSantana",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "fcm-node": "^1.2.1",
+    "mongodb": "^3.1.0",
+    "request": "^2.87.0"
+  },
+  "bugs": {
+    "url": "https://github.com/mskinho/pushionicnode/issues"
+  },
+  "homepage": "https://github.com/mskinho/pushionicnode#readme"
+}
